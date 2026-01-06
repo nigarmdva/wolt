@@ -8,7 +8,6 @@ import {
 function App() {
   const isDarkMode = useColorScheme() === 'dark';
 
-  const test = "hello" 
   return (
     <SafeAreaProvider>
       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
