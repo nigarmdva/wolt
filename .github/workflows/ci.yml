@@ -30,7 +30,7 @@ jobs:
         run: npm test -- --coverage
 
       - name: List files
-        run: ls -R wolt/src
+        run: ls -R src
 
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@v2
